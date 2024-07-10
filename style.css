@@ -1,0 +1,114 @@
+.body{
+  background-image: url('https://nstxl.org/wp-content/uploads/2023/08/Success-Story-KANAGWA-1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.companyContainer {
+  /* border: solid red; */
+  border-width: 0.2px;
+  text-align: center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+.company {
+  border-radius: 22px;
+  font-size:22px;
+  border: solid whitesmoke;
+  margin: 20px;
+  /* width: 100%; */
+  padding: 12px;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+#com_a:hover {
+  /* color: white; */
+  background-color: lightblue;
+}
+#com_b:hover {
+  /* color: peru; */
+  background-color: navy;
+}
+#com_c:hover {
+  background-color: green;
+}
+#com_d:hover {
+  /* color: white; */
+  background-color: purple;
+}
+.bizPic {
+  margin: 1em;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: solid white;
+}
+.gameContainer{
+  /* border: solid red; */
+  border-width: 0.2px;
+  text-align: center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+.game{
+  border-radius: 22px;
+  font-size:22px;
+  border: solid whitesmoke;
+  margin: 20px;
+  /* width: 100%; */
+  padding: 12px;
+  justify-content: space-evenly;
+  text-align: justify;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.gTitle{
+  color: goldenrod;
+  text-align-last: justify;
+  
+}
+
+.gamPic{
+  margin: 1em;
+  border-radius: 25%;
+  height: 200px;
+  width: 200px;
+  border: solid white;
+}
+
+/* These classes change the div to only display game pic */
+#game_1:hover{
+  background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202309/0718/2c253de3117182b4a09d02ad16ebc51a25d4ea9208a5d057.jpg');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size:contain;
+}
+
+#game_2:hover{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYDhfrY-mkww-V1WjJbxPB0wPTdKDBzu0Ubw&s');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size:contain;
+}
+
+#game_3:hover{
+  background-image: url('https://i0.wp.com/highschool.latimes.com/wp-content/uploads/2021/09/league-of-legends.jpeg?fit=1607%2C895&ssl=1');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size:contain;
+}
+
+#game_4:hover{
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/1/14/Halo_Infinite.png');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size:contain;
+}
